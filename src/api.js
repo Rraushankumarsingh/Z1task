@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const API_KEY = "273e7d25";
-const BASE_URL = "http://www.omdbapi.com/";
+const BASE_URL = `https://cors-anywhere.herokuapp.com/https://www.omdbapi.com/?apikey=${API_KEY}`;
+
 
 export const searchMovies = async (query = "Avengers") => {
     try {
