@@ -1,0 +1,18 @@
+.movieList {
+    margin-top: 60px;
+    padding: 20px;
+    background: #141414;
+    min-height: 100vh;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.loading {
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+}
