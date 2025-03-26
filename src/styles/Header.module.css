@@ -2,47 +2,37 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
-    background: #000;
+    padding: 15px 30px;
+    background: #131921;
     color: white;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
+    color: #1dbf73;
 }
 
 .nav {
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
 .nav span {
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.searchForm {
     display: flex;
     align-items: center;
-}
-
-.searchInput {
-    padding: 8px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    width: 200px;
-}
-
-.searchButton {
-    padding: 8px;
-    border: none;
-    background: white;
+    gap: 5px;
     cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav span:hover {
+    color: #1dbf73;
 }
